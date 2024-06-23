@@ -1,7 +1,7 @@
-#include "HelloLib.hpp"
+#include "Core.hpp"
 #include <iostream>
 
-namespace HelloLib
+namespace Core
 {
 void print()
 {

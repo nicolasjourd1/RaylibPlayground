@@ -2,7 +2,7 @@
 workspace "PremakeTemplate"
     architecture "x64"
     configurations {"Debug", "Release"}
-    startproject "HelloWorld"
+    startproject "Core"
 
     filter "configurations:Debug"
        defines { "DEBUG" }
@@ -17,5 +17,5 @@ workspace "PremakeTemplate"
 
 OutputDir = "%{cfg.system}-%{cfg.architecture}/%{cfg.buildcfg}"
 
-include "HelloLib/HelloLib.lua"
-include "HelloWorld/HelloWorld.lua"
+include "Core/Core.lua"
+include "EndlessRunner/EndlessRunner.lua"
