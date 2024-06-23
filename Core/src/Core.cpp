@@ -5,6 +5,6 @@ namespace Core
 {
 void print()
 {
-    std::cout << "Hello from HelloLib" << std::endl;
+    std::cout << "Hello from Core" << std::endl;
 }
 }
